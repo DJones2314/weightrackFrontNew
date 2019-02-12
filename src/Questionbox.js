@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './hanging.png';
 import Questionshow from './Questionshow';
 
 export default class Questionbox extends React.Component {

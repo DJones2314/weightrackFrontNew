@@ -13,9 +13,39 @@ a:hover{
     float: left;   
 }
 
+#moveText{
+    position: relative;
+    top: 200px;
+    left: 170px;
+    width: 270px;
+}
+
 #navBar:hover {
     background-color: #090909;
     list-style: none;
+}
+
+#answerdetails{
+    width: 400px; 
+}
+
+#questionEmail{
+    float: left;
+   
+    padding-bottom: 20px;
+}
+#questionName{
+    float: left;
+    padding-bottom: 20px;
+}
+#questionDetail{
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+#table{
+    color: red;
 }
 
 #answerBox{
@@ -23,20 +53,34 @@ a:hover{
     position: inherit;
     height: 600px;
     width: 700px;
-    background-image: url(scroll2.png);
-    background-size: contain;
+/*
+    background-color: #D0CCCC;
+    opacity: 0.8;
+*/
+    background-image: url(thoughts.png);
     background-repeat: no-repeat;
-    margin-left: 20px;
-    margin-top: 100px;
+    background-size: contain;
+    margin-left: 1200px;
+    
 }
 #answerWords{
+    float: left;
     width: 270px;
-    margin-left: 190px;
-    margin-top: 90px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 /*change this back to 800 margin-left*/
 .pushNavItems{
     margin-left: 800px;
+}
+
+#showQuestionAll{
+    float: left;
+    position: inherit;
+    margin-left: 80px;
+    margin-top: 200px;
+    background-color: white;
+    width: 1000px;
 }
 
 #navBar{
@@ -203,7 +247,7 @@ width: 380px;
 #protips{
     height: 600px;
     position: relative;
-    top:250px;
+    top:230px;
     left: 50px;
     height: 700px;;
     width: 80%;

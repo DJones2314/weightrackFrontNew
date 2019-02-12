@@ -4,22 +4,42 @@ import axios from 'axios';
 
 export default class Questionshow extends React.Component {
   state = {
-    questions: []
+    answers: []
   }
 
   componentDidMount() {
     axios.get(`http://localhost:8080/api/questions/`)
       .then(res => {
-        const questions = res.data;
-        this.setState({ questions });
+        const answers = res.data;
+        this.setState({ answers });
       })
   }
 
   render() {
     return (
-      <div id="questions">
-        <p>{this.state.questions.map(question => <div>{question.detail}</div>)}</p>
-      </div>
-    )
-  }
+             <div id="tips95">
+                 {this.state.answers.map((rowdata,i)=>
+        <div>{(typeof(rowdata.answers)=='object')?
+              
+              <div>
+                {
+                    rowdata.answers.map((subrowdata,k)=>
+             <div id="moveText">
+              Answer = "{subrowdata.answerdetail}."
+              </div>
+            )
+            }
+              </div>
+              :
+              null
+             }
+             
+             
+        
+        </div>
+                )}</div>
+        
+               
+        );
+    }
 };
