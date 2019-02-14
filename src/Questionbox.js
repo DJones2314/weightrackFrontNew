@@ -47,7 +47,7 @@ export default class Questionbox extends React.Component {
             <div>
                 <div id="nutrition">
                    <h1> GIVE FAT THE BOOT - LESS CARBS, MORE PROTEIN</h1>
-                    <p>Successful muscle definition is the result of three elements: Building muscle, maintaining the newly built muscle and the right nutrition.
+                    <p id="killFat">Successful muscle definition is the result of three elements: Building muscle, maintaining the newly built muscle and the right nutrition.
 
                     In many athletes, who have already built plenty of muscle mass, the individual muscle groups are often difficult to recognise. Muscle definition doesn’t mean increasing your weight training to build more muscles.
 

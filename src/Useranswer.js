@@ -20,7 +20,7 @@ export default class Useranswer extends Component {
     
     render() {
         return (
-             <div id="tips95">
+             <div >
                 <div id="questionview">
                     <Answervue />
                 </div>
