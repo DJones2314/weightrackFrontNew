@@ -14,10 +14,7 @@ a:hover{
 }
 
 #moveText{
-    position: relative;
-    top: 200px;
-    left: 170px;
-    width: 270px;
+    
 }
 
 #navBar:hover {
@@ -29,19 +26,23 @@ a:hover{
     width: 400px; 
 }
 
+#questionid{
+    padding-bottom: 40px;
+}
+
 #questionEmail{
     float: left;
    
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 #questionName{
     float: left;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 #questionDetail{
     float: left;
     padding-right: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 #table{
@@ -63,6 +64,11 @@ a:hover{
     margin-left: 1200px;
     
 }
+
+#questionAnswer{
+    
+}
+
 #answerWords{
     float: left;
     width: 270px;

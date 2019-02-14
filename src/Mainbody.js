@@ -5,6 +5,7 @@ import Home from './Home';
 import Tips95 from './Tips95';
 import Protips from './Protips';
 import User from './User';
+import Useranswer from './Useranswer';
 import './WeightRoom.jpg';
 
 
@@ -15,7 +16,7 @@ class Mainbody extends Component {
                 <Route exact path='/Home' component={Home} />
                 <Route exact path='/question' component={Questionbox} />
                 <Route exact path='/user' component={User} />
-                <Route exact path='/protips' component={Protips} />
+                <Route exact path='/useranswer' component={Useranswer} />
             </div>
         );
     }

@@ -49,11 +49,11 @@ export default class Questionbox extends React.Component {
                    <h1> GIVE FAT THE BOOT - LESS CARBS, MORE PROTEIN</h1>
                     <p>Successful muscle definition is the result of three elements: Building muscle, maintaining the newly built muscle and the right nutrition.
 
-In many athletes, who have already built plenty of muscle mass, the individual muscle groups are often difficult to recognise. Muscle definition doesn’t mean increasing your weight training to build more muscles.
+                    In many athletes, who have already built plenty of muscle mass, the individual muscle groups are often difficult to recognise. Muscle definition doesn’t mean increasing your weight training to build more muscles.
 
-The key to muscle definition is actually the right diet. If you body fat percentage is too high, not even the best workout plan can help.
+                    The key to muscle definition is actually the right diet. If you body fat percentage is too high, not even the best workout plan can help.
 
-You need to burn body fat in combination with the right diet and additional endurance exercises. </p>
+                    You need to burn body fat in combination with the right diet and additional endurance exercises. </p>
                 </div>
                 <div id="questionBox">
                     <form onSubmit={this.handleSubmit}>

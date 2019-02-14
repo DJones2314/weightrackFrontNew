@@ -9,7 +9,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 
 
-export default class Questionvue extends Component {
+export default class Answervue extends Component {
     state = {
     questions: []
   }
@@ -17,7 +17,7 @@ export default class Questionvue extends Component {
 
 
   componentDidMount() {
-    axios.get(`http://localhost:8080/api/questions/`)
+    axios.get(`http://localhost:8080/api/answers/`)
       .then(res => {
         const questions = res.data;
         this.setState({ questions });
@@ -35,20 +35,18 @@ export default class Questionvue extends Component {
             <TableCell>ID</TableCell>
             <TableCell align="right">Name</TableCell>
             <TableCell align="right">Email</TableCell>
-            <TableCell align="right">Question</TableCell>
+            <TableCell align="right">Answer</TableCell>
           </TableRow>
         </TableHead>
             <TableBody>
           
-                <TableCell component="th" scope="row">{ this.state.questions.map(question => <button id="questionid">{question.questionID}</button>) }</TableCell>
-                <TableCell align="right">{ this.state.questions.map(question => <div id="questionName">{question.name}</div>) }</TableCell>
-                <TableCell align="right">{ this.state.questions.map(question => <div id="questionEmail">{question.email}</div>) }</TableCell>
-                <TableCell align="right">{ this.state.questions.map(question => <div id="questionDetail">{question.detail}</div>) }</TableCell>
+                <TableCell component="th" scope="row">{ this.state.questions.map(question => <div id="questionid">{question.questionID}</div>) }</TableCell>
+                <TableCell align="right">{ this.state.questions.map(question => <div id="questionName">{question.answername}</div>) }</TableCell>
+                <TableCell align="right">{ this.state.questions.map(question => <div id="questionEmail">{question.answeremail}</div>) }</TableCell>
+                <TableCell align="right">{ this.state.questions.map(question => <div id="questionDetail">{question.answerdetail}</div>) }</TableCell>
             </TableBody>
           </div>
-            <div>
-                <Answerquestion />
-            </div>
+            
             </div>
         );
     }

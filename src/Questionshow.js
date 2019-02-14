@@ -25,7 +25,7 @@ export default class Questionshow extends React.Component {
                 {
                     rowdata.answers.map((subrowdata,k)=>
              <div id="moveText">
-              Answer = "{subrowdata.answerdetail}."
+              "{subrowdata.answerdetail}."
               </div>
             )
             }

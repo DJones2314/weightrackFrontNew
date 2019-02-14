@@ -4,7 +4,7 @@ import Questionshow from './Questionshow';
 import Questionvue from './Questionvue';
 import Answervue from './Answervue';
 
-export default class User extends Component {
+export default class Useranswer extends Component {
     state = {
     answers: []    
   }
@@ -22,7 +22,7 @@ export default class User extends Component {
         return (
              <div id="tips95">
                 <div id="questionview">
-                    <Questionvue />
+                    <Answervue />
                 </div>
                     
                </div>

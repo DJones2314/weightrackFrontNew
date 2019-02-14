@@ -12,8 +12,8 @@ export default class Navbar extends Component {
                             
                                 <div className="dropdown-content">
                                     <NavLink exact to="/question">Nutrition</NavLink>
-                                    <NavLink exact to="/user">User Knowledge</NavLink>
-                                    <NavLink exact to="/protips">Tips</NavLink>
+                                    <NavLink exact to="/user">User Questions</NavLink>
+                                    <NavLink exact to="/useranswer">User Answers</NavLink>
                                 </div>
                             </li>
                             
